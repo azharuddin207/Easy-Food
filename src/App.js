@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import {Navbar, NavbarBrand} from 'reactstrap';
+import Menu from './components/MenuComponent';
 import './App.css';
 import { from } from 'rxjs';
-
+<Menu/>
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Navbar dark color="primary">
         <div className="container">
-        <NavbarBrand href="/">Restorane confusion</NavbarBrand>
+        <NavbarBrand href="/">Restorane confusion
+        </NavbarBrand>
         </div>
         </Navbar>
       </div>
